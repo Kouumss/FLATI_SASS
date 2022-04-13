@@ -1,3 +1,72 @@
+@media (max-width: 1024px) {
+  body .secondo .card {
+    height: 380px;
+  }
+  body .tersio {
+    grid-template-columns: 1fr;
+    width: 100%;
+    grid-gap: 20px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+  }
+  body .tersio .work {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  body .tersio .work button {
+    margin-top: 20px;
+  }
+  body .tersio .portfolio {
+    padding: 0;
+  }
+  body .tersio .portfolio .photo {
+    width: 100%;
+    height: 105%;
+  }
+  body .tersio .portfolio .photo img {
+    width: 100%;
+  }
+  body .quattro {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  body .uno img {
+    height: 70%;
+  }
+}
+@media (max-width: 768px) {
+  body .secondo .card {
+    width: 100%;
+    height: 400px;
+    margin: 30px 5px;
+  }
+  body .tersio {
+    grid-template-columns: 1fr;
+    width: 100%;
+    grid-gap: 20px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+  body nav ul {
+    flex-wrap: wrap;
+  }
+
+  tersio {
+    display: block;
+  }
+
+  .quattro {
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +82,6 @@ nav {
   height: 10vh;
 }
 nav .lee {
-  background-color: #3676BB;
   border-radius: 5px;
   height: 6vh;
   width: 10vh;
@@ -25,7 +93,7 @@ nav h1 {
 nav ul li {
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 5px 5px;
 }
 nav ul {
   display: flex;
