@@ -48,13 +48,51 @@
             padding: 0 100px
 
 @media (max-width: 320px)
+
     body
-        width: 100%
-        nav
+
+        header
+            nav
+                height: 20vh
+                h1
+                    display: none
             ul
                 flex-wrap: wrap
-    tersio
-        display: block
-    
-    .quattro
-        width: 100%        
+                justify-content: space-evenly
+                li
+                    border: 1px solid #FFFFFF
+                    border-radius: 5px
+        .uno
+            .bgtri
+                display: none
+            .ithink
+                display: inline
+                .para
+                    margin: 0 10px
+        .secondo
+            flex-wrap: wrap
+            .card
+                width: 100%
+                height: 300px
+                margin: 10px 0
+
+        .tersio
+            margin: 1000px 0
+            padding: 0 30px
+            .work
+                display: inline
+                margin: 0
+                padding: 0
+                .click
+                    height: 8vh
+            .portfolio
+                grid-template-columns: 1fr
+                .photo
+                    img
+                        width: 100%
+                        margin-bottom: 10px
+
+        .quattro
+            height: 100%
+            h1
+                padding: 10px 0

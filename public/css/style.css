@@ -52,19 +52,61 @@
   }
 }
 @media (max-width: 320px) {
-  body {
-    width: 100%;
+  body header nav {
+    height: 20vh;
   }
-  body nav ul {
+  body header nav h1 {
+    display: none;
+  }
+  body header ul {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  body header ul li {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+  }
+  body .uno .bgtri {
+    display: none;
+  }
+  body .uno .ithink {
+    display: inline;
+  }
+  body .uno .ithink .para {
+    margin: 0 10px;
+  }
+  body .secondo {
     flex-wrap: wrap;
   }
-
-  tersio {
-    display: block;
-  }
-
-  .quattro {
+  body .secondo .card {
     width: 100%;
+    height: 300px;
+    margin: 10px 0;
+  }
+  body .tersio {
+    margin: 1000px 0;
+    padding: 0 30px;
+  }
+  body .tersio .work {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  body .tersio .work .click {
+    height: 8vh;
+  }
+  body .tersio .portfolio {
+    grid-template-columns: 1fr;
+  }
+  body .tersio .portfolio .photo img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .quattro {
+    height: 100%;
+  }
+  body .quattro h1 {
+    padding: 10px 0;
   }
 }
 * {
@@ -81,11 +123,6 @@ nav {
   align-items: center;
   height: 10vh;
 }
-nav .lee {
-  border-radius: 5px;
-  height: 6vh;
-  width: 10vh;
-}
 nav h1 {
   color: #FFFFFF;
   font-weight: 100;
@@ -94,6 +131,7 @@ nav ul li {
   display: flex;
   align-items: center;
   margin: 5px 5px;
+  padding: 4px;
 }
 nav ul {
   display: flex;
